@@ -80,11 +80,11 @@ sections:
     icon: si-homeassistant
     url: https://ha.robertproxy.site
     statusCheck: true
-  - title: Zigbee2MQTT
-    description: Zigbee to MQTT
-    icon: si-zigbee
-    url: https://z2m.robertproxy.site
+  - title: Jellyfin
+    icon: si-jellyfin
+    url: https://jellyfin.robertproxy.site
     statusCheck: true
+    statusCheckHeaders: { 'cloudflare-security-key': 'cAB3FW8aN5Gi&N!FyVQ7LM^nnsRB6TTm' }
   - title: Authentik
     description: Authentification sever
     icon: si-authentik
