@@ -53,8 +53,7 @@ sections:
       icon: favicon
       url: https://outlook.office.com/mail/
     - title: Machine Learning
-      icon: fas fa-gears
-      url: https://c8.alamy.com/comp/W4C7FW/machine-learning-thin-line-icon-creative-simple-design-from-artificial-intelligence-icons-collection-outline-machine-learning-icon-for-web-design-W4C7FW.jpg
+      url: https://dox.uliege.be/index.php/s/GScGPUZj6Qc79EW?path=%2F
     - title: Theory of Computation
       url: https://dox.uliege.be/index.php/s/GScGPUZj6Qc79EW?path=%2FSlides#pdfviewer
     - subItems:
