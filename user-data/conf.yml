@@ -56,6 +56,8 @@ sections:
       url: https://dox.uliege.be/index.php/s/GScGPUZj6Qc79EW?path=%2F
     - title: Theory of Computation
       url: https://dox.uliege.be/index.php/s/GScGPUZj6Qc79EW?path=%2FSlides#pdfviewer
+    - title: Genetics & Bioinformatics
+      url: https://uliege.be
     - subItems:
       - title: Gitlab
         icon: favicon
