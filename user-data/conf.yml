@@ -53,7 +53,7 @@ sections:
       icon: favicon
       url: https://outlook.office.com/mail/
     - title: Machine Learning
-      icon: fa-solid fa-gears
+      icon: fas fa-gears
       url: https://c8.alamy.com/comp/W4C7FW/machine-learning-thin-line-icon-creative-simple-design-from-artificial-intelligence-icons-collection-outline-machine-learning-icon-for-web-design-W4C7FW.jpg
     - title: Theory of Computation
       url: https://dox.uliege.be/index.php/s/GScGPUZj6Qc79EW?path=%2FSlides#pdfviewer
@@ -121,7 +121,7 @@ sections:
     statusCheck: true
     statusCheckHeaders: { 'cloudflare-security-key': 'cAB3FW8aN5Gi&N!FyVQ7LM^nnsRB6TTm' }
 - name: Tools
-  icon: fa-solid fa-toolbox
+  icon: fas fa-toolbox
   items:
   - title: Station360
     description: terminal-to-device file transfer
