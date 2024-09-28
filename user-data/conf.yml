@@ -9,7 +9,7 @@ pageInfo:
 
 # Optional app settings and configuration
 appConfig:
-  disableConfiguration: true
+  disableConfiguration: false
   theme: colorful
   showSplashScreen: false
   statusCheck: false
@@ -59,6 +59,7 @@ sections:
       icon: favicon
       url: https://github.com
     - title: Machine Learning
+      icon: fa-solid fa-gears
       url: https://c8.alamy.com/comp/W4C7FW/machine-learning-thin-line-icon-creative-simple-design-from-artificial-intelligence-icons-collection-outline-machine-learning-icon-for-web-design-W4C7FW.jpg
     - title: Theory of Computation
       url: https://dox.uliege.be/index.php/s/GScGPUZj6Qc79EW?path=%2FSlides#pdfviewer
@@ -107,6 +108,12 @@ sections:
     url: https://auth.robertproxy.site
     statusCheck: true
     statusCheckHeaders: { 'cloudflare-security-key': 'cAB3FW8aN5Gi&N!FyVQ7LM^nnsRB6TTm' }
+- name: Tools
+  icon: fa-solid fa-toolbox
+  items:
+  - title: Station360
+    description: terminal-to-device file transfer
+    url: https://www.station307.com/#/
 - name: Getting Started
   icon: fas fa-rocket
   items:
