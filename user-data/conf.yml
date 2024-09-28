@@ -4,8 +4,8 @@ pageInfo:
   title: Dashy
   description: Tableau de bord
   navLinks:
-  - title: Agenda
-    path: https://google.be
+  - title: ChatGPT
+    path: https://chatgpt.com/
 
 # Optional app settings and configuration
 appConfig:
