@@ -49,6 +49,9 @@ sections:
       description: Ressources
       icon: https://www.ecampus.uliege.be/favicon.ico
       url: https://www.ecampus.uliege.be/
+    - title: Outlook
+      icon: favicon
+      url: https://outlook.office.com/mail/
     - title: Machine Learning
       url: https://c8.alamy.com/comp/W4C7FW/machine-learning-thin-line-icon-creative-simple-design-from-artificial-intelligence-icons-collection-outline-machine-learning-icon-for-web-design-W4C7FW.jpg
     - title: Theory of Computation
