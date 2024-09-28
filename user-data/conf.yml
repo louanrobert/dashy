@@ -52,17 +52,22 @@ sections:
     - title: Outlook
       icon: favicon
       url: https://outlook.office.com/mail/
-    - title: Gitlab
-      icon: favicon
-      url : https://gitlab.uliege.be
-    - title: Github
-      icon: favicon
-      url: https://github.com
     - title: Machine Learning
       icon: fa-solid fa-gears
       url: https://c8.alamy.com/comp/W4C7FW/machine-learning-thin-line-icon-creative-simple-design-from-artificial-intelligence-icons-collection-outline-machine-learning-icon-for-web-design-W4C7FW.jpg
     - title: Theory of Computation
       url: https://dox.uliege.be/index.php/s/GScGPUZj6Qc79EW?path=%2FSlides#pdfviewer
+    - subItems:
+      - title: Gitlab
+        icon: favicon
+        url : https://gitlab.uliege.be
+      - title: Github
+        icon: favicon
+        url: https://github.com
+      - title: Overleaf
+        icon: favicon
+        url: https://overleaf.com
+    
 - name: SPEAM
   displayData:
     itemSize: small
@@ -77,6 +82,13 @@ sections:
     - title: OpenShift
       icon: si-redhatopenshift
       url: https://console-openshift-console.apps.speam.montefiore.uliege.be/
+    - subItems:
+      - title: Postman
+        icon: si-postman
+        url: https://www.postman.com/
+      - title: Swagger
+        icon: si-swagger
+        url: https://swagger.io/
 - name: Serveur
   icon: fas fa-server
   items:
