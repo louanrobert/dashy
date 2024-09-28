@@ -75,14 +75,21 @@ sections:
     icon: si-proxmox
     url: https://proxmox.robertproxy.site/
     statusCheck: true
+    statusCheckHeaders: { 'cloudflare-security-key': 'cAB3FW8aN5Gi&N!FyVQ7LM^nnsRB6TTm' }
   - title: Home Assistant
     description: Home Assistant est un système de domotique open-source qui vous permet de contrôler et d’automatiser votre maison.
     icon: si-homeassistant
     url: https://ha.robertproxy.site
+    statusCheckHeaders: { 'cloudflare-security-key': 'cAB3FW8aN5Gi&N!FyVQ7LM^nnsRB6TTm' }
     statusCheck: true
   - title: Jellyfin
     icon: si-jellyfin
     url: https://jellyfin.robertproxy.site
+    statusCheck: true
+    statusCheckHeaders: { 'cloudflare-security-key': 'cAB3FW8aN5Gi&N!FyVQ7LM^nnsRB6TTm' }
+  - title: Immich
+    icon: si-immich
+    url: https://immich.robertproxy.site
     statusCheck: true
     statusCheckHeaders: { 'cloudflare-security-key': 'cAB3FW8aN5Gi&N!FyVQ7LM^nnsRB6TTm' }
   - title: Authentik
