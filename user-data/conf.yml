@@ -2,19 +2,93 @@
 # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Dashy
-  description: Welcome to your new dashboard!
+  description: Tableau de bord
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
+  - title: Google
+    path: https://google.be
 
 # Optional app settings and configuration
 appConfig:
+  disableConfiguration: true
   theme: colorful
+  showSplashScreen: false
+  statusCheck: false
+  statusCheckInterval: 30
+  webSearch:
+    disableWebSearch: false
+    searchEngine: google
+  hideComponents:
+    hideFooter: true
+    hideSettings: true
 
 # Main content - An array of sections, each containing an array of items
 sections:
+- name: ' '
+  icon: fas fa-info
+  items:
+  widgets:
+    - type: clock
+      options:
+        timeZone: Europe/Brussels
+        customCityName: ' '
+        format: fr-FR
+        hideDate: false
+    - type: weather
+      options:
+        apiKey: 'd47e8583dbd9c9e73f9a759a718f17c9'
+        city: Liège
+        units: metric
+- name: ULiège
+  icon: fas fa-school
+  items:
+    - title: myULiège
+      description: Site principal
+      icon: favicon
+      url: https://my.uliege.be/
+    - title: eCampus
+      description: Ressources
+      icon: https://www.ecampus.uliege.be/favicon.ico
+      url: https://www.ecampus.uliege.be/
+    - title: Machine Learning
+      url: https://c8.alamy.com/comp/W4C7FW/machine-learning-thin-line-icon-creative-simple-design-from-artificial-intelligence-icons-collection-outline-machine-learning-icon-for-web-design-W4C7FW.jpg
+    - title: Theory of Computation
+      url: https://dox.uliege.be/index.php/s/GScGPUZj6Qc79EW?path=%2FSlides#pdfviewer
+- name: Software Project Engineering & Management
+  icon: generative
+  items:
+    - title: Jira
+      icon: si-jira
+      url: https://jira.montefiore.ulg.ac.be/secure/Dashboard.jspa
+    - title: XWiki
+      icon: favicon
+      url: https://jira.montefiore.ulg.ac.be/xwiki
+    - title: OpenShift
+      icon: si-redhatopenshift
+      url: https://console-openshift-console.apps.speam.montefiore.uliege.be/
+- name: Serveur
+  icon: fas fa-server
+  items:
+  - title: Proxmox
+    description: Noeud principal
+    icon: si-proxmox
+    url: https://proxmox.robertproxy.site/
+    statusCheck: true
+  - title: Home Assistant
+    description: Home Assistant est un système de domotique open-source qui vous permet de contrôler et d’automatiser votre maison.
+    icon: si-homeassistant
+    url: https://ha.robertproxy.site
+    statusCheck: true
+  - title: Zigbee2MQTT
+    description: Zigbee to MQTT
+    icon: si-zigbee
+    url: https://z2m.robertproxy.site
+    statusCheck: true
+  - title: Authentik
+    description: Authentification sever
+    icon: si-authentik
+    url: https://auth.robertproxy.site
+    statusCheck: true
+    statusCheckHeaders: { 'cloudflare-security-key': 'cAB3FW8aN5Gi&N!FyVQ7LM^nnsRB6TTm' }
 - name: Getting Started
   icon: fas fa-rocket
   items:
@@ -44,4 +118,10 @@ sections:
     description: Get help with Dashy, raise a bug, or get in contact
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
+  widgets:
+    - type: joke
+      options:
+        safeMode: false
+        language: fr
+        category: all
   
