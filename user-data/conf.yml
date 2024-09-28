@@ -55,6 +55,9 @@ sections:
     - title: Gitlab
       icon: favicon
       url : https://gitlab.uliege.be
+    - title: Github
+      icon: favicon
+      url: https://github.com
     - title: Machine Learning
       url: https://c8.alamy.com/comp/W4C7FW/machine-learning-thin-line-icon-creative-simple-design-from-artificial-intelligence-icons-collection-outline-machine-learning-icon-for-web-design-W4C7FW.jpg
     - title: Theory of Computation
