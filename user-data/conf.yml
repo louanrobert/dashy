@@ -127,6 +127,9 @@ sections:
   - title: Station360
     description: terminal-to-device file transfer
     url: https://www.station307.com/#/
+  - title: Pastes.dev
+    icon: favicon
+    url: https://pastes.dev/
 - name: Getting Started
   icon: fas fa-rocket
   items:
