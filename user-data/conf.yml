@@ -56,8 +56,6 @@ sections:
       url: https://people.montefiore.uliege.be/lwh/AIA/
     - title: Theory of Computation
       url: https://dox.uliege.be/index.php/s/GScGPUZj6Qc79EW?path=%2FSlides#pdfviewer
-    - title: Genetics & Bioinformatics
-      url: https://uliege.be
     - subItems:
       - title: Gitlab
         icon: favicon
