@@ -130,7 +130,7 @@ sections:
     url: https://pastes.dev/
   - title: Triage
     icon: favicon
-    yrl: https://tria.ge/
+    url: https://tria.ge/
     description: Analyze malware samples free. A state-of-the–art malware analysis sandbox, with all the features you need.
 - name: Getting Started
   icon: fas fa-rocket
