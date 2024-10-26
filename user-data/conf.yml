@@ -132,7 +132,6 @@ sections:
     icon: favicon
     url: https://pastes.dev/
   - title: Triage
-    icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf61peCx5jZYp-JC3V5u4nfNJzgWziQ_SjHw&s
     url: https://tria.ge/
     description: Analyze malware samples free. A state-of-the–art malware analysis sandbox, with all the features you need.
 - name: Getting Started
