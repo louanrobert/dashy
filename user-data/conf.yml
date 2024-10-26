@@ -122,6 +122,9 @@ sections:
 - name: Tools
   icon: fas fa-toolbox
   items:
+  - title: Overleaf
+    url: http://overleaf-css.germanywestcentral.cloudapp.azure.com/project
+    icon: si-overleaf
   - title: Station360
     description: terminal-to-device file transfer
     url: https://www.station307.com/#/
