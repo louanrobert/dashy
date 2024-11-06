@@ -134,6 +134,9 @@ sections:
   - title: Triage
     url: https://tria.ge/
     description: Analyze malware samples free. A state-of-the–art malware analysis sandbox, with all the features you need.
+  - title: OnPaste
+    url: https://onpaste.com/
+    icon: fas fa-paste
 - name: Getting Started
   icon: fas fa-rocket
   items:
