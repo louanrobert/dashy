@@ -52,20 +52,16 @@ sections:
     - title: Outlook
       icon: favicon
       url: https://outlook.office.com/mail/
+    - title: Gitlab
+      icon: favicon
+      url: https://gitlab.uliege.be/
+    - title: Gradescope
+      icon: favicon
+      url: https://www.gradescope.com/
     - title: Machine Learning
       url: https://people.montefiore.uliege.be/lwh/AIA/
     - title: Theory of Computation
       url: https://dox.uliege.be/index.php/s/GScGPUZj6Qc79EW?path=%2FSlides#pdfviewer
-    - subItems:
-      - title: Gitlab
-        icon: favicon
-        url : https://gitlab.uliege.be
-      - title: Github
-        icon: favicon
-        url: https://github.com
-      - title: Overleaf
-        icon: favicon
-        url: https://overleaf.com
     
 - name: SPEAM
   displayData:
@@ -122,8 +118,11 @@ sections:
 - name: Tools
   icon: fas fa-toolbox
   items:
+  - title: Github
+    icon: sigithub
+    url: https://github.com
   - title: Overleaf
-    url: http://overleaf-css.germanywestcentral.cloudapp.azure.com/project
+    url: https://overleaf-css.germanywestcentral.cloudapp.azure.com/project
     icon: si-overleaf
   - title: Station360
     description: terminal-to-device file transfer
