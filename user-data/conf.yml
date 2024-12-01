@@ -119,7 +119,7 @@ sections:
   icon: fas fa-toolbox
   items:
   - title: Github
-    icon: sigithub
+    icon: si-github
     url: https://github.com
   - title: Overleaf
     url: https://overleaf-css.germanywestcentral.cloudapp.azure.com/project
