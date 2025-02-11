@@ -58,10 +58,8 @@ sections:
     - title: Gradescope
       icon: favicon
       url: https://www.gradescope.com/
-    - title: Machine Learning
-      url: https://people.montefiore.uliege.be/lwh/AIA/
-    - title: Theory of Computation
-      url: https://dox.uliege.be/index.php/s/GScGPUZj6Qc79EW?path=%2FSlides#pdfviewer
+    - title: Information and Coding Theory
+      url: https://people.montefiore.uliege.be/lwh/Info/
     
 - name: SPEAM
   displayData:
