@@ -125,15 +125,23 @@ sections:
   - title: Station360
     description: terminal-to-device file transfer
     url: https://www.station307.com/#/
+    icon: favicon
   - title: Pastes.dev
     icon: favicon
     url: https://pastes.dev/
   - title: Triage
     url: https://tria.ge/
     description: Analyze malware samples free. A state-of-the–art malware analysis sandbox, with all the features you need.
+    icon: favicon
   - title: OnPaste
     url: https://onpaste.com/
     icon: fas fa-paste
+  - title: CyberChef
+    url: https://gchq.github.io/CyberChef/
+    icon: favicon
+  - title: IT Tools
+    url: https://it-tools.tech/
+    icon: favicon
 - name: Getting Started
   icon: fas fa-rocket
   items:
